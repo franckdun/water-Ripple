@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JQuery Water Ripple Effect</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <section>
+        <header>
+            <h1>Jquery Water Ripple Effect</h1>
+            <h2>A nice Jquery Plugin for your Website</h2>
+        </header>
+    </section>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery.ripples.js"></script>
+
+    <script>
+        $('body').ripples({
+            resolution: 512,
+            dropRadius: 20, //px
+            perturbance: 0.04,
+        });
+    </script>
+</body>
+
+</html>
